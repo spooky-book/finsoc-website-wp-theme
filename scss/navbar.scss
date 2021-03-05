@@ -1,0 +1,80 @@
+@import "variables";
+
+body {
+	margin-top: 65px;
+}
+
+#finsoc-navbar {
+	.navbar {
+		background-color: white;
+		border-color: white;
+		height: 65px;
+        @media (min-width: $screenTablet) {
+            background-color: rgba(255,255,255,0.95);
+        }
+	}
+
+	.navbar-header {
+		height: 65px;
+        padding-top: 3px;
+	}
+
+	.navbar-header > button {
+		margin-top: 12px;
+	}
+
+	.navbar-toggle {
+		background-color: $lightBlue1;
+        border-color: $lightBlue1;
+		margin-right: 15px;
+        border-radius: 0px;
+	}
+
+	.navbar-toggle.collapsed {
+        background-color: $darkBlue;
+        border-color: $darkBlue;
+    }
+
+	#header-logo {
+		max-height: 30px;
+	}
+
+	#navbar-container nav {
+		display: inline;
+		float: right;
+	}
+
+	#top-navbar {
+		padding-top: 8px;
+		background-color: white;
+		font-size: 14px;
+		padding-right: 15px;
+        
+        @media (min-width: $screenTablet) {
+            background-color: rgba(255,255,255,0.1);
+        }
+
+		.navbar-item-link {
+			font-weight: bold;
+			text-transform: uppercase;
+            color: #32607A;
+		}
+
+        .navbar-item.open  .navbar-item-link {
+            background-color: #32607A;
+            color: white;
+        }
+
+		li.navbar-item:hover {
+            border-bottom: 7px solid #383d44; /* or whatever colour you'd prefer */
+            //background-color: #32607A;
+            //@include transitionDelay(border-bottom, 500ms, ease-in-out);
+            
+            .navbar-item-link {
+                color: #383d44;
+                @include transitionDelay(color, 250ms, linear);
+            }
+		}
+	}
+
+}

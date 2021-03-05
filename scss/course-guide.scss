@@ -1,0 +1,47 @@
+.PageCourseGuide {
+    background-color: whitesmoke !important;
+    
+	.CoursePanel {
+        font-family: "Roboto Condensed", sans-serif;
+        
+		&-heading {
+			color: white;	
+            background-color: $darkBlue1;
+
+            a {
+                text-decoration: none;
+            }
+
+            &-link {
+                color: white;
+            }
+
+            a:hover, a:focus {
+                color: white;    
+            }
+		}
+
+		&-title {
+            margin: 0;
+			padding: 10px 15px;
+		}
+
+        &-icon {
+            display: none;
+            float: right;
+            margin-top: 4px;
+
+			@media (min-width: $screenMobile) {
+				display: inline-block;
+			}
+        }
+
+        &-links {
+            text-align: right;
+        }
+	}
+
+	&-introduction {
+		text-align: justify;
+	}
+}

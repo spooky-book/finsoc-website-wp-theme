@@ -1,0 +1,83 @@
+// Variables
+
+// FINSOC Colours
+//  1
+$black: #121522;        // title
+$lightBlue1 : #A2C2E2;    // content
+$lightBlue2 : #89B5C4;   // content
+//  2
+$darkBlue : #102C44;     // title
+$darkBlue1 : #557B94;     // content
+$darkBlue2 : #32607A;    // content
+//  Grey Content
+$grey : #BFBFBF;
+
+// Custom preset Resolutions
+$screenMobile: 480px;
+$screenTablet: 768px;
+$screenLaptopSm: 1224px;
+$screenLaptopLg: 1824px;
+
+// Z Levels as Variables
+$zdepth0: none !important;
+$zdepth1: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+$zdepth1half: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+$zdepth2: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+$zdepth3: 0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12), 0 3px 5px -1px rgba(0, 0, 0, 0.3);
+$zdepth4: 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.3);
+$zdepth5: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+
+// Spacings
+$space-xxs: 5px;
+$space-xs: 10px;
+$space-sm: 20px;
+$space-md: 40px;
+$space-lg: 60px;
+
+// Transition Mix In
+@mixin transitionDelay($type, $time, $style) {
+    -webkit-transition: $type $time $style;
+    -moz-transition: $type $time $style;
+    -o-transition: $type $time $style;
+    -ms-transition: $type $time $style;
+    transition: $type $time $style;
+}
+
+// Hover Mix In
+@mixin hoverShadow($depth, $time) {
+    &:hover {
+        box-shadow: $depth;
+        @include transitionDelay(box-shadow, $time, linear);
+    }
+
+    &:not( :hover ) {
+        @include transitionDelay(box-shadow, $time, linear);
+    }
+}
+
+// Hover Opacity
+@mixin hoverOpacity($val, $time) {
+    &:hover {
+        opacity: $val;
+        @include transitionDelay(opacity, $time, ease-out);
+    }
+
+    &:not( :hover ) {
+        @include transitionDelay(opacity, $time, ease-out);
+    }
+}
+
+// Link Mixins
+@mixin linkMixin() {
+    display: inline-block;
+
+    a {
+        font-weight: bold;
+        color: $darkBlue1;
+        text-decoration: none;
+
+        &:hover {
+            color: $lightBlue1;
+        }
+    }
+}

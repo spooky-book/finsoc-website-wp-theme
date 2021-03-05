@@ -1,0 +1,99 @@
+@import "variables";
+
+.SponsorsList {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    margin-bottom: $space-sm;
+
+    @media (min-width: $space-xs) {
+        justify-content: space-evenly;
+    }
+
+    &-item {
+        flex:1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            max-height: 100%;
+            max-width: 100%;
+            //padding: 1px;
+
+        }
+
+        &--nomura {
+            max-height: 10%;
+            max-width: 10%;
+        }
+    }
+    
+    &-nomura {
+        img {
+            max-height: 50%;
+            max-width: 50%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-fpa {
+        img {
+            max-height: 130%;
+            max-width: 130%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-gresham {
+        img {
+            max-height: 80%;
+            max-width: 80%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-aima {
+        img {
+            max-height: 80%;
+            max-width: 80%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-zookal {
+        img {
+            max-height: 70%;
+            max-width: 70%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-luminis {
+        img {
+            max-height: 85%;
+            max-width: 85%;
+            //padding: 1px;
+
+        }
+    }
+    
+    &-hsbc {
+        img {
+            max-height: 70%;
+            max-width: 60%;
+            //padding: 1px;
+
+        }
+    }
+    
+}
+
+

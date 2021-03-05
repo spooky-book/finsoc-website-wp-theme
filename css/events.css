@@ -1,0 +1,140 @@
+.events-div {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+/* currently unused */
+.events-div-row {
+	display: flex;
+	flex: 0 0 100%;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 3%;
+}
+
+.single-event-div {
+	/* flex: 0 0 50%; */
+	/* padding-top: 56.25%; */
+	flex: 0 0 48%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 20px;
+}
+
+/* makes all the divs in rounded corners class have rounded corners */
+.rounded-corners div, .rounded-corners img {
+	border-radius: 10px;
+}
+
+.flip-card-front img {
+    backface-visibility: hidden;
+}
+
+.flip-card-back-title h1 {
+	font-size: 30px;
+	line-height: 1;
+}
+
+.flip-card-back {
+  	line-height: 1.4;
+}
+
+/* .flip-card-back p {
+} */
+
+
+/* first change in content width in desktop version */
+@media (min-width: 992px) and (max-width: 1200px) {
+	.flip-card-back {
+		padding-left: 5%;
+		padding-right: 5%;
+		line-height: 1.6;
+	}
+	
+	/* currently unused */
+	/* .events-div-row {
+		flex-direction: column;
+		margin-bottom: 0px;
+	} */
+	
+	.single-event-div {
+		/* flex: 0 0 50%; */
+		/* padding-top: 56.25%; */
+		flex: 0 0 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		/* margin-bottom: 15px; */
+	}
+
+	.flip-card-back-title h1 {
+		font-size: 25px;
+		line-height: 1.8;
+	}
+}
+
+/* second change in content width in desktop version */
+@media (min-width: 768px) and (max-width: 992px) {
+	/* currently not in use */
+	/* .events-div-row {
+		flex-direction: column;
+		margin-bottom: 0px;
+	} */
+
+	.flip-card-back {
+		padding-left: 5%;
+		padding-right: 5%;
+		line-height: 1.6;
+	}
+	
+	.single-event-div {
+		/* flex: 0 0 50%; */
+		/* padding-top: 56.25%; */
+		flex: 0 0 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 15px;
+	}
+	
+	.flip-card-back-title h1 {
+		font-size: 25px;
+		line-height: 1.8;
+	}
+}
+
+@media (max-width: 768px) {
+	/* currently not in use */
+	/* .events-div-row {
+		flex-direction: column;
+		margin-bottom: 0px;
+	} */
+	
+	.single-event-div {
+		/* flex: 0 0 50%; */
+		/* padding-top: 56.25%; */
+		flex: 0 0 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		margin-bottom: 15px;
+	}
+
+	.flip-card-back-title h1 {
+		font-size: 25px;
+	}
+}
+
+.partnerships-div {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.single-partnerships-div {
+	/* flex: 0 0 50%; */
+	/* padding-top: 56.25%; */
+	flex: 0 0 30%;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-bottom: 20px;
+}
+

@@ -1,0 +1,49 @@
+GENERAL
+	navbar
+		.navbar-show
+
+	colour overlay over the header image
+		.consultup-breadcrumb-section .overlay
+
+	footer colour
+		footer .consultup-footer-copyright
+			background
+
+
+
+read more button 
+	.btn.btn-tislider
+
+icons colour
+	.consultup-service-inner i
+
+little animated bar at the bottom of the icons blocks
+	.consultup-service.three::after
+
+get involved button
+	.btn-theme
+
+top of page button 
+	.page-scroll-up
+
+testimonial apostrophes
+	.testimonials_qute .sub-qute i
+
+testimonail picture border colours
+	.testimonials_qute .consultup-client
+
+footer colour
+	footer .consultup-footer-copyright
+		background
+
+button colour on the events page might need to be changed
+	this is changable in the posts menu
+
+sponsorship button 
+	.applyContainer .btn-outline-primary
+
+read more button
+	.newsletters-button
+		add a colour thing
+get involved form button colour
+	.caldera-grid .btn-default

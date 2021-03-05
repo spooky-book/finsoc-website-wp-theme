@@ -1,0 +1,19 @@
+// Link Component
+
+.Link {
+    @include hoverShadow($zdepth4, 500ms);
+    background-color: $darkBlue1;
+    color: white;
+
+    &:hover {
+        background-color: rgb(112,168,187);;
+    }
+
+    &--inverse {
+        background-color: rgb(112,168,187);
+        &:hover {
+            background-color: $darkBlue1;
+        }
+    }
+}
+ 

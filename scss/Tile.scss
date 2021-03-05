@@ -1,0 +1,187 @@
+@import "variables";
+
+//Sponsor: unfinished
+.sponsors-container{
+    text-align: center;
+}
+
+.display-4 {
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+
+.cardLink {
+    text-decoration: none !important;
+}
+
+.SponsorTile {
+    text-align: center;
+    $this: SponsorTile;
+    $mobileHeight: 80px;
+    $normalHeight: 480px;
+    background-color: white;
+    box-shadow: $zdepth1;
+    border-radius: 10px;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: $space-xs;
+    vertical-align: top;
+    width: 22%;
+    margin-right: 2%;
+    
+    
+
+
+    @media (min-width: $screenTablet) {
+        height: auto;
+        
+        margin-bottom: $space-sm;
+    }
+
+    &--imgFit {
+        width: 50%;
+        height: 100%;
+    }
+
+   &-imgContainer {
+       //border: 1px solid lightgrey;
+       flex: 1;
+       height: $mobileHeight;
+       width: 100%;
+       text-align: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 20px;
+       min-height: 200px;
+
+       @media (min-width: $screenTablet) {
+           height: 40%;
+       }
+
+       img {
+           max-height: 170px;
+           max-width: 100%;
+           
+       }
+       
+       
+   }
+    
+   &:hover {
+        -webkit-box-shadow: 3px 15px 58px -9px rgba(0,0,0,0.75);
+        -moz-box-shadow: 3px 15px 58px -9px rgba(0,0,0,0.75);
+        box-shadow: 3px 15px 58px -9px rgba(0,0,0,0.75);
+        -webkit-transform: scale(1.01);
+        -ms-transform: scale(1.01);
+        transform: scale(1.01);
+        opacity: 0.9;
+        transition: transform 1s ease;
+
+   }
+
+   &-text {
+        flex: 3;
+        background-color:rgb(242,242,242);
+        padding: $space-xs;
+        display: flex;
+        flex-direction: column;
+        height: 60%;
+
+        @media (min-width: $screenTablet) {
+            padding: 0px;
+            height: 60%;
+        }
+
+        &-title {
+            
+            /*flex: 1;*/
+            padding: 3%;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.5rem;
+
+            @media (min-width: $screenTablet) {
+                font-size: 2.3rem;
+                line-height: 2.3rem;
+            }
+        }
+
+        &-footer {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            @media (min-width: $screenTablet) {
+                display: none;
+            }
+
+            &-link {
+                font-size: 1rem;
+                font-weight: bold;
+                color: $darkBlue1;
+                text-decoration: none;
+                text-transform: uppercase;
+            }
+        }
+
+        &-content {
+            padding: 9px;
+            display: none;
+            font-size: 11px;
+            line-height: 11px;
+            flex: 4;
+
+            @media (min-width: $screenTablet) {
+                display: block;
+                flex: 2;
+                font-size: 1.5rem;
+                line-height: 1.5rem;
+            }
+
+            &.sponsor-content-show {
+                display: block;
+            }
+        }
+   }
+
+   &.#{$this}--noDetail {
+       .#{$this}-imgContainer {
+           //flex: 3;
+           //margin-left: 20px;
+           //margin-right: 20px;
+       }
+
+       img {
+           //flex: 3;
+           //margin-right: 20px;
+       }
+
+       .#{$this}-text-footer,
+       .#{$this}-text-content {
+           //display: none;
+       }
+
+       .#{$this}-text {
+            //justify-content: space-evenly;
+
+           &-title {
+               //flex: none;
+               //text-align: center;
+               padding-top: 3%;
+               padding-bottom: 3%;
+           }
+       }
+   }
+
+    .flip-up {
+        transform: rotate(180deg);
+        @include transitionDelay(transform, 150ms, ease);
+    }
+
+    .flip-down {
+        transform: rotate(0deg);
+        @include transitionDelay(transform, 150ms, ease);
+    }
+}

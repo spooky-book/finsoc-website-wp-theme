@@ -1,0 +1,45 @@
+// Card Component
+
+.Card {
+    padding: $space-xs;
+    background-color: white;
+    margin-bottom: $space-lg;
+    box-shadow: $zdepth1;
+    $cardBorderColor: #EEEEEE;
+
+    &.Card--tight {
+        margin: 0;
+        padding: 0;
+    }
+
+    & .Card-text {
+        font-size: 16px;
+    }
+
+    & .Card-footer {
+        border-top: solid 1px $cardBorderColor;
+        margin-top: $space-sm;
+        padding-top: $space-sm;
+
+        &--right {
+            text-align: right;
+        }
+
+        &--left {
+            text-align: left;
+        }
+
+        &--center {
+            text-align: center;
+        }
+    }
+
+	@media (min-width: $screenMobile) {
+		padding: $space-md;
+	}
+
+    @media (min-width: $screenTablet) {
+            padding-left: 15%;
+            padding-right: 15%;
+    }
+}

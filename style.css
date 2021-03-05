@@ -1,0 +1,105 @@
+/*
+Theme Name: Busiway
+Theme URI: https://themeansar.com/free-themes/busiway/
+Author: themeansar
+Author URI: https://themeansar.com
+Template: consultup
+Description: Busiway WordPress theme ideal for a business or perfect solutions for corporate, consulting, wedding planners, agency, law firms, finance, law travel, recipes, sport/medical shops, startups, online agencies, portfolios, freelancers, E-commerce.  The theme is responsive, WPML, Retina ready, SEO friendly (Live preview : https://demo.themeansar.com/consultup/transparent/)
+Version: 1.5
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, translation-ready, custom-background, custom-logo, featured-images, footer-widgets, full-width-template, blog, e-commerce, entertainment
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl.html
+Text Domain: busiway
+*/
+
+/*
+	Imports from other CSS files
+*/
+
+/* @import "css/general.css";
+@import "css/about-us.css";
+@import "css/newsletters.css";
+@import "css/sponsorship.css";
+@import "css/SponsorsList.css";
+@import "css/Tile.css";
+@import "css/events.css"; */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
+
+
+/* 
+	FONTS
+*/
+
+@font-face {
+	font-family: "Glacial Indifference";
+	src: 	local("GlacialIndifference-Regular"), 
+			url("./fonts/GlacialIndifference-Regular.otf");
+}
+
+@font-face {
+	font-family: "Glacial Indifference";
+	src: 	local("GlacialIndifference-Bold"), 
+			url("./fonts/GlacialIndifference-Bold.otf");
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Glacial Indifference";
+	src: 	local("GlacialIndifference-Italic"), 
+			url("./fonts/GlacialIndifference-Italic.otf");
+	font-style: italic;
+}
+
+/*
+ * 
+ * HEADER
+ * 
+ */
+
+ 
+@media (min-width: 992px) {
+	/* secretly just the vertical-center property but specifically for the logo and hamburger menu*/
+	.logo-positioning {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.navbar-brand .custom-logo {
+		max-width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.navbar-brand .custom-logo {
+		max-width: 80%;
+	}
+
+	.navbar-toggle {
+		margin: 0;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+}
+	
+/* Icon
+  */
+.consultup-service {
+	text-align: center;
+}	
+.consultup-service-inner .ser-icon{
+	width: auto;
+	height:100px;
+}
+.consultup-service-inner i {
+	font-size:90px;
+}
+
+#consultup-slider .slide-caption {
+	margin: 3% auto auto;
+}

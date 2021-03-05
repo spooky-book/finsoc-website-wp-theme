@@ -1,0 +1,359 @@
+/* .PageAboutUs {
+  background-image: image-url("aboutBanner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: black;
+  height: auto;
+}
+.PageAboutUs .dot-points {
+  margin-left: 50px;
+}
+.PageAboutUs .name {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.PageAboutUs strong {
+  color: black;
+}
+.PageAboutUs .portrait {
+  width: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+}
+.PageAboutUs .hover-image {
+  position: relative;
+}
+.PageAboutUs .hover-image:hover .hover-text {
+  display: block;
+}
+.PageAboutUs .in {
+  padding-left: 2px;
+}
+.PageAboutUs .hover-text {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  z-index: 1000;
+  line-height: 200px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  display: none;
+}
+.PageAboutUs .ppl-title h3 {
+  font-size: 22px;
+  word-wrap: break-word;
+}
+.PageAboutUs .icon {
+  font-size: 1.7em !important;
+}
+.PageAboutUs .ppl-row {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 70px;
+}
+.PageAboutUs .og-details a {
+  border: none !important;
+}
+.PageAboutUs .FinsocHighlight {
+  color: #557B94;
+}
+.PageAboutUs .subsection-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: #337AB7;
+  margin: 0px 50px 20px 50px;
+}
+.PageAboutUs .subsection-title h2 {
+  margin: 10px 0px;
+}
+.PageAboutUs .subsection-title hr {
+  background-image: linear-gradient(to right, rgba(131, 186, 247, 0), 8, rgba(131, 186, 247, 0));
+  height: 1px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
+.two-wide-row-container {
+  max-width: 625px;
+  margin: auto;
+}
+
+.three-wide-row-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-us-row {
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  /* flex-direction: column; */
+  /* -ms-flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.two-wide-row-container .single-person-div {
+  width: 100%;
+  min-height: 30px;
+  background: chartreuse;
+}
+
+/* this will probs need to be changed to single-person-div in future */
+.three-wide-row-container .image-container-div {
+  width: 100%;
+  min-height: 30px;
+  background: maroon;
+}
+
+.invisible-row-div {
+  width: 0%;
+  max-width: 50px;
+}
+
+.circular-image {
+  border-radius: 50%;
+  transition: filter 0.25s ease-in-out;
+}
+
+.circular-image:hover {
+  filter: brightness(30%);
+}
+
+.single-person-div {
+  position: relative;;
+}
+
+.circular-image-link {
+  width: 100%;
+  background: blue;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-150%);
+  text-align: center;
+  /* transition: opacity 0.25s ease-in-out; */
+  opacity: 1;
+  /* border-radius: 50%; */
+
+}
+
+.circular-image-link a {
+  margin: 0 10px;
+  font-size: 18px;
+  display: inline-block;
+  color: white;
+}
+
+.circular-image-link a:hover {
+  margin: 0 10px;
+  font-size: 18px;
+  display: inline-block;
+  color: #00b4ff;
+}
+
+.single-person-div .collapsible {
+  cursor: pointer;
+}
+
+.collapsible-content {
+  position: absolute;
+  margin: auto;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  background-color: darkslategrey;
+  transition-property: max-height;
+  transition: 0.2s ease-out;
+  transform: translateY(350px);
+  /* top: 100px; */
+  right: 0;
+  left: 0;
+  /* bottom: -100px; */
+  /* display: none; */
+}
+
+
+@media (min-width: 768px) {
+  .two-wide-row-container .single-person-div {
+    width: 45%;
+  }
+  
+  .three-wide-row-container .single-person-div {
+    width: 30%;
+  }
+  
+  .two-wide-row-container .invisible-row-div {
+    width: 10%;
+  }
+  
+  .three-wide-row-container .invisible-row-div {
+    width: 10%;
+  }
+}
+
+/*# sourceMappingURL=about-us.css.map */
+
+
+/* .full-screen-overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.full-screen-overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 300px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .close:hover {
+  color: #06D85F;
+}
+
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+} */
+
+/* potentially put in general because its just a modal lol */
+.modal {
+  z-index:3;
+  display:none;
+  padding-top:100px;
+  position:fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  overflow:auto;
+  background-color:rgba(0,0,0,0.4)
+}
+
+.animate-opacity {
+  animation: opac 0.4s;
+}
+@keyframes opac {
+  from  {opacity:0} 
+  to    {opacity:1}
+}
+
+/* this is the actual modal popup */
+.modal-content {
+  margin:auto;
+  text-align: left;
+  background-color:#fff;
+  position:absolute;
+  padding:0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline:0;
+  width:600px;
+  border-radius: 9px;
+}
+
+.modal-top-bar, .modal-bottom-bar {
+  color:#fff!important;
+  background-color:#009688!important;
+  position: relative;
+}
+
+.modal-top-bar {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.modal-bottom-bar {
+  border-radius: 0px 0px 8px 8px;
+}
+
+.large-font {
+  font-size:26px!important;
+}
+
+.modal-container h3 {
+  color: #fff;
+  font-size: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.display-topright {
+  position:absolute;
+  right:0;
+  top:0
+}
+
+.exit-button:hover {
+  color:#000!important;
+  background-color:#ccc!important
+}
+
+.exit-button {
+  height: 100%;
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color:inherit;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  border-radius: 0 8px 0 0; 
+}
+
+.w3-card-4 {
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}
+
+.modal-container:after, .modal-container:before {
+  content:"";
+  display:table;
+  clear:both
+}
+
+.modal-container {
+  padding:0.01em 16px
+}
+
+.modal-card {
+  box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19)
+}

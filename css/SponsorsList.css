@@ -1,0 +1,57 @@
+.SponsorsList {
+  align-items: center;
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+@media (min-width: 10px) {
+  .SponsorsList {
+    justify-content: space-evenly;
+  }
+}
+.SponsorsList-item {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SponsorsList-item img {
+  max-height: 100%;
+  max-width: 100%;
+}
+.SponsorsList-item--nomura {
+  max-height: 10%;
+  max-width: 10%;
+}
+.SponsorsList-nomura img {
+  max-height: 50%;
+  max-width: 50%;
+}
+.SponsorsList-fpa img {
+  max-height: 130%;
+  max-width: 130%;
+}
+.SponsorsList-gresham img {
+  max-height: 80%;
+  max-width: 80%;
+}
+.SponsorsList-aima img {
+  max-height: 80%;
+  max-width: 80%;
+}
+.SponsorsList-zookal img {
+  max-height: 70%;
+  max-width: 70%;
+}
+.SponsorsList-luminis img {
+  max-height: 85%;
+  max-width: 85%;
+}
+.SponsorsList-hsbc img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/*# sourceMappingURL=SponsorsList.css.map */

@@ -1,0 +1,162 @@
+// Events Page
+@import "variables";
+
+.events-container {
+	padding-bottom: 20px;
+
+	.jumbotron {
+		text-align: center;
+	}
+
+	.event {
+        border-bottom: 4px solid $darkBlue;
+
+        & .first-event {
+        }
+
+        @media (min-width: $screenMobile) {
+            margin-bottom: $space-md;
+            border-bottom: 0;
+        }
+    }
+
+    .first-event {
+        border-top: 4px solid $darkBlue;
+
+        @media (min-width: $screenMobile) {
+            border-top: 0;
+        }
+    }
+    
+    .past-event {
+        opacity: 0.6;
+    }
+
+    .event-inner {
+        width: 100%;
+        background-color: white;
+        font-family: "Roboto Condensed", sans-serif;
+
+        .event-img {
+            border-bottom: 2px solid $darkBlue2;
+
+            img {
+                width: 100%;
+
+                @media (min-width: $screenMobile) {
+                    border-radius: 5px 5px 0 0;
+                }
+            }
+        }
+        
+        @media (min-width: $screenMobile) {
+            box-shadow: $zdepth2;
+            border-radius: 5px;
+        }
+    }
+	
+    .event-content {
+        width: 100%;
+        
+        .row  {
+            margin: 0;
+        }
+
+        &-title {
+            margin-bottom: 0;
+            padding-left: 50px;
+            display: block;
+            color: $darkBlue;
+            font-size: 1.4rem;
+
+            @media (max-width: $screenMobile) {
+                margin-top: $space-xxs;
+            }
+
+            @media (min-width: $screenMobile) {
+                font-size: 2rem;
+            }
+
+            @media (min-width: $screenTablet) {
+                font-size: 3rem;
+            }
+        }
+
+        &-date, &-time, &-location {
+            float: left;
+            width: 33%;
+            padding-top: $space-xxs;
+            text-align: center;
+            font-weight: 700;
+            letter-spacing: 0.2px;
+            font-size: 1rem;
+            color: $darkBlue2;
+
+            p {
+                padding-left: 5px;
+                text-transform: uppercase;
+                margin-bottom: 0;
+
+                @media (min-width: $screenMobile) {
+                    display: inline-block;
+                }
+            }
+
+            @media (min-width: $screenMobile) {
+                padding-top: $space-sm;
+                width: 160px;
+                font-size: 1.4rem;
+            }
+
+            @media (min-width: $screenTablet) {
+                width: 250px;
+                font-size: 2rem;
+            }
+        }
+        
+        .svg {
+            width: 20px;
+            height: 20px;
+
+            @media (min-width: $screenTablet) {
+                width: 25px;
+                height: 25px;
+            }
+        }
+        
+        &-details {
+            padding: 0 $space-sm;
+
+            p {
+                margin-bottom: 0;
+            }
+             
+            @media (min-width: $screenMobile) {
+                margin-top: $space-xs;
+                padding: 0 $space-sm $space-xs;
+            }
+        }
+    }
+
+	.subsection-title {
+		color: #DDDDDD;
+		margin-bottom: $space-md;
+		text-align: center;
+	}
+
+	#past-events-section, #upcoming-events-section {
+		margin-top: $space-lg;
+        margin-left: auto;
+        margin-right: auto;
+
+        // Specific width for display events
+        @media (min-width: $screenMobile) {
+            width: 480px;
+        }
+
+        @media (min-width: $screenTablet) {
+            width: 750px;
+        }
+
+	}
+}
