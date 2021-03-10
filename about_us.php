@@ -16,7 +16,7 @@ get_template_part('index','banner'); ?>
 
 <main id="content">
     <div class="container text-centre">
-        <h2>Executives</h2>
+        <h1>Executives</h1>
         <br>
         <div class="two-wide-row-container">
             <div class="about-us-row">
@@ -26,71 +26,378 @@ get_template_part('index','banner'); ?>
                         "person_name"       => "Merrynal Anthony", 
                         "person_position"   => "Co-President", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/"
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
-                <div class="invisible-row-div"></div>
-                <div class="single-person-div">
-                    <div class="image-container-div">
-                        <img class="circular-image" src="https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-4-of-29-scaled-e1611454331311.jpg" alt="brhrbrhhr">
-                    </div>
-                    <div class="circular-image-link">
-                        BRESFSLDJFLSD
-                    </div>
-                    <div class="person-name">
-                        BELBELEE NAME
-                    </div>
-                    <div class="person-designation">
-                        Postition testing line
-                    </div>
-                </div>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
             </div>
         </div>
         <br>
         <div class="three-wide-row-container">
             <div class="about-us-row">
-                <div class="image-container-div">
-                    <img class="circular-image" src="https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg" alt="merynal bruh">
-                    BELBELEE NAME new line
-                    positiontesting
-                </div>
-                <div class="invisible-row-div">
-                    bruh
-                </div>
-                <div class="image-container-div">
-                    brub
-                </div>
-                <div class="invisible-row-div">
-                    bruh
-                </div>
-                <div class="image-container-div">
-                    brub
-                </div>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
             </div>
         </div>
         <br>
         <div class="two-wide-row-container">
             <div class="about-us-row">
-                <div class="image-container-div">
-                    hello
-                </div>
-                <div class="invisible-row-div">
-                    bruh
-                </div>
-                <div class="image-container-div">
-                    brub
-                </div>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
             </div>
         </div>
         <br>
         <br>
-        <h2>Activities</h2>
-        
-        <h2>Externals</h2>
-        
-        <h2>Operations</h2>
-        
+        <br>
+        <h1>Activities</h1>
+        <div class="two-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <div class="two-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1>Externals</h1>
+        <div class="two-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <div class="three-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <h1>Operations</h1>
+        <div class="two-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <div class="three-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
+        <br>
+        <div class="two-wide-row-container">
+            <div class="about-us-row">
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+                <?php 
+                    $args = array(
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
+                        "person_name"       => "Merrynal Anthony", 
+                        "person_position"   => "Co-President", 
+                        "mailto_address"    => "enquiries@unswfinsoc.org.au",
+                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "DegreeYear"        => "test 1",
+                        "drives"            => "test 2",
+                        "hobbies"           => "test 3",
+                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                    );
+                    get_template_part("templates/individual_about_us_icon", null, $args);
+                ?>
+            </div>
+        </div>
     </div>
 </main>
 

@@ -17,16 +17,16 @@
 <div class="single-person-div">
     <div class="image-container-div">
         <img class="circular-image" onclick="document.getElementById('<?php echo $modal_id ?>').style.display='block'" src="<?php echo esc_html($args['image_src'])?>" alt="<?php echo esc_html($args['person_name'])?>">
-    </div>
-    <div class="circular-image-link">
-        <a href="mailto:<?php echo esc_html($args['mailto_address'])?>">
-            <i class="far fa-envelope"></i>
-        </a>
-        <a href="<?php echo esc_html($args['linkedin_url'])?>">
-            <i class="fab fa-linkedin"></i>
-        </a>
-        <br>
-        Read More
+        <div class="circular-image-link">
+            <!-- <a href="mailto:<?php echo esc_html($args['mailto_address'])?>">
+                <i class="far fa-envelope"></i>
+            </a>
+            <a href="<?php echo esc_html($args['linkedin_url'])?>">
+                <i class="fab fa-linkedin"></i>
+            </a> -->
+            <!-- <br> -->
+            Click to Read More
+        </div>
     </div>
     <div class="person-name">
     <?php echo esc_html($args['person_name'])?>
@@ -47,15 +47,21 @@
         </header>
         <div class="modal-container">
             <div class="modal-image-div">
-
+                <img class="modal-image" src="<?php echo esc_html($args['image_src'])?>" alt="<?php echo esc_html($args['person_name'])?>">
             </div> 
             <div class="modal-text-div">
-                <p>Some text..</p>
-                <p>Some text..</p>
+                <b>Degree and Year of Study</b>
+                <p><?php echo esc_html($args['DegreeYear']) ?></p>
+                <b>What drives you?</b>
+                <p><?php echo esc_html($args['drives']) ?></p>
+                <b>Hobbies</b>
+                <p><?php echo esc_html($args['hobbies']) ?></p>
+                <b>Where do you see yourself in five years?</b>
+                <p><?php echo esc_html($args['future']) ?></p>
             </div>   
         </div>
-        <footer class="modal-container modal-bottom-bar">
+        <!-- <footer class="modal-container modal-bottom-bar">
             <p>Modal Footer</p>
-        </footer>
+        </footer> -->
     </div>
 </div>
