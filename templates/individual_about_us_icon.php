@@ -17,24 +17,26 @@
 <div class="single-person-div">
     <div class="image-container-div">
         <img class="circular-image" onclick="document.getElementById('<?php echo $modal_id ?>').style.display='block'" src="<?php echo esc_html($args['image_src'])?>" alt="<?php echo esc_html($args['person_name'])?>">
-        <div class="circular-image-link">
-            <!-- <a href="mailto:<?php echo esc_html($args['mailto_address'])?>">
-                <i class="far fa-envelope"></i>
-            </a>
-            <a href="<?php echo esc_html($args['linkedin_url'])?>">
-                <i class="fab fa-linkedin"></i>
-            </a> -->
-            <!-- <br> -->
+        <div class="circular-image-link" onclick="document.getElementById('<?php echo $modal_id ?>').style.display='block'">
             Click to Read More
         </div>
     </div>
     <div class="person-name">
     <?php echo esc_html($args['person_name'])?>
     </div>
+    <div class="social-links">
+        <a href="mailto:<?php echo esc_html($args['mailto_address'])?>">
+            <i class="far fa-envelope"></i>
+        </a>
+        <a href="<?php echo esc_html($args['linkedin_url'])?>">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </div>
     <div class="person-designation">
     <?php echo esc_html($args['person_position'])?>
     </div>
 </div>
+
 <!-- onclick="document.getElementById('<?php echo $modal_id ?>').style.display='none'" -->
 <div id="<?php echo $modal_id ?>" class="modal animate-opacity" onclick="aboutUsModalClose('<?php echo $modal_id ?>')">
     <div class="modal-content w3-card-4">
@@ -45,8 +47,9 @@
             </span>
             <h3><?php echo esc_html($args['person_name']) ?></h3>
         </header>
-        <div class="modal-container">
+        <div class="modal-container modal-inner">
             <div class="modal-image-div">
+                <!-- <span class="modal-image-helper"></span> -->
                 <img class="modal-image" src="<?php echo esc_html($args['image_src'])?>" alt="<?php echo esc_html($args['person_name'])?>">
             </div> 
             <div class="modal-text-div">

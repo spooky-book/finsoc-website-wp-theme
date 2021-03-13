@@ -27,7 +27,7 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "Co-President", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
-                        "DegreeYear"        => "test 1",
+                        "DegreeYear"        => "test 1 if updates",
                         "drives"            => "test 2",
                         "hobbies"           => "test 3",
                         "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
@@ -36,11 +36,11 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php 
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
-                        "person_name"       => "Merrynal Anthony", 
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-4-of-29-scaled-e1611454331311.jpg",
+                        "person_name"       => "Emily Weng", 
                         "person_position"   => "Co-President", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "linkedin_url"      => "https://www.linkedin.com/in/emily-weng/",
                         "DegreeYear"        => "test 1",
                         "drives"            => "test 2",
                         "hobbies"           => "test 3",
@@ -55,11 +55,11 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php 
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
-                        "person_name"       => "Merrynal Anthony", 
-                        "person_position"   => "Co-President", 
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-20-of-29-scaled-e1611456453833.jpg",
+                        "person_name"       => "Ming Qin", 
+                        "person_position"   => "Vice President (Activities)", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "linkedin_url"      => "https://www.linkedin.com/in/ming-qin/",
                         "DegreeYear"        => "test 1",
                         "drives"            => "test 2",
                         "hobbies"           => "test 3",
@@ -69,11 +69,11 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php 
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
-                        "person_name"       => "Merrynal Anthony", 
-                        "person_position"   => "Co-President", 
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-19-of-29-scaled-e1611455637963.jpg",
+                        "person_name"       => "Siqi Yang", 
+                        "person_position"   => "Vice President (Externals)", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
+                        "linkedin_url"      => "https://www.linkedin.com/in/siqi-yang-656ab0133/",
                         "DegreeYear"        => "test 1",
                         "drives"            => "test 2",
                         "hobbies"           => "test 3",
