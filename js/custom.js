@@ -105,7 +105,7 @@ window.addEventListener("scroll", function () {
 
 // this triggers when the webpage is resized 
 // this only activates on the events page
-if (window.location.pathname=='/events/' || window.location.pathname=='/partnerships/') {
+if (window.location.pathname=='/events/' || window.location.pathname=='/sponsorships/our-partners/') {
     window.addEventListener("resize", function () {
         resize_divs();
         mobile_event_div();
