@@ -438,6 +438,7 @@
   .modal-text-div {
     flex: 0 0 100%;
     padding: 5%;
+    font-size: 15px;
   }
 
   /* modal popup when on mobile device */
@@ -445,8 +446,8 @@
     margin:auto;
     text-align: left;
     background-color:#fff;
-    width: 85%;
-    max-height: 90%;
+    width: 90%;
+    max-height: 100%;
   }
 
   .single-person-div {

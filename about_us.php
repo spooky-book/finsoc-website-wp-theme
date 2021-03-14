@@ -107,10 +107,10 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "Vice President (Operations)", 
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/rishi-chhugani123/",
-                        "DegreeYear"        => "test 1",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "DegreeYear"        => "4th Year - Law/Commerce",
+                        "drives"            => "The enjoyment of learning and the satisfaction of achievement. ",
+                        "hobbies"           => "Cooking, Gaming, Movies",
+                        "future"            => "Pursuing a career where I get to be a the forefront of changing technologies and their application in our society."
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -176,10 +176,10 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "Social Director", 
                         "mailto_address"    => "events@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/jason-tong-a96207161/",
-                        "DegreeYear"        => "test 1",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "DegreeYear"        => "Commerce/Media (PR & Advertising)",
+                        "drives"            => "Working so my parents don't have to",
+                        "hobbies"           => "Shadow Boxing, Gardening, Baking",
+                        "future"            => "Working"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -259,10 +259,10 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "Sponsorships Director", 
                         "mailto_address"    => "sponsorships@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/yan-zhai-bb249b147/",
-                        "DegreeYear"        => "test 1",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "DegreeYear"        => "3rd Year Commerce",
+                        "drives"            => "Passion for life and getting stuff done",
+                        "hobbies"           => "Hiking, astrology, drawing",
+                        "future"            => "Honestly no clue"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -329,9 +329,9 @@ get_template_part('index','banner'); ?>
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/katherine-mo-96ab00165/",
                         "DegreeYear"        => "Bachelor of Actuarial/Commerce (Finance)",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "drives"            => "Growing and developing with those around me as we work towards our goals",
+                        "hobbies"           => "Knitting, playing board games, copic art",
+                        "future"            => "Working in a role that I find enjoyable and rewarding"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -375,10 +375,10 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "IT Director", 
                         "mailto_address"    => "operations@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/daniel-li-84489a14b/",
-                        "DegreeYear"        => "test 1",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "DegreeYear"        => "4th Year - Commerce (Finance) / Computer Science",
+                        "drives"            => "To bring a positive impact onto people's lives",
+                        "hobbies"           => "TV, Youtube, Hiking/Walks, Games, Baking",
+                        "future"            => "Hopefully in a career that I love"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -389,10 +389,10 @@ get_template_part('index','banner'); ?>
                         "person_position"   => "IT Director", 
                         "mailto_address"    => "operations@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/jay-yu1/",
-                        "DegreeYear"        => "test 1",
-                        "drives"            => "test 2",
-                        "hobbies"           => "test 3",
-                        "future"            => "test 4 lest test a real long sentence and see what comes of it it might just be an acutal meme lets see tho"
+                        "DegreeYear"        => "4th Year - Commerce (Finance/FinTech)/Information Systems",
+                        "drives"            => "I am motivated to bring positive change/value to the people and community around me and to be the best version of myself. ",
+                        "hobbies"           => "Sports/Exercise, Music, Movies, Volunteering",
+                        "future"            => "I see myself surrounded by family and friends, working within the tech or banking sector with twins x"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
