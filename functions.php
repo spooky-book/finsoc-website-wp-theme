@@ -61,7 +61,7 @@ add_action( 'wp_enqueue_scripts', 'custom_css', 99);
 // javascript inclusion is here
 
 function enqueue_custom_javascript() {
-	wp_enqueue_script( custom_js, get_stylesheet_directory_uri() . "/js/custom.js", array(), time() );
+	wp_enqueue_script( 'custom_js', get_stylesheet_directory_uri() . "/js/custom.js", array(), time() );
 	// wp_enqueue_script( "daemonite-material-js", get_stylesheet_directory_uri() . '/js/material/material.min.js', array(), '1.0' );
 }
 
