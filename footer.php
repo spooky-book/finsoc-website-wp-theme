@@ -63,14 +63,14 @@
 		  ?>
 		  <ul class="ti-social">
 			<?php if($consultup_footer_fb_link !=''){?>
-			<li><span class="icon-soci"><a <?php if($consultup_footer_fb_target) { ?> target="_blank" <?php } ?>href="<?php echo esc_url($consultup_footer_fb_link); ?>"><i class="fa fa-facebook"></i></a></span> </li>
+			<li><span class="icon-soci"><a <?php if($consultup_footer_fb_target) { ?> target="_blank" <?php } ?>href="<?php echo esc_url($consultup_footer_fb_link); ?>"><i class="fab fa-facebook"></i></a></span> </li>
 			<?php } if($consultup_footer_twt_link !=''){ ?>
-			<li><span class="icon-soci"><a <?php if($consultup_footer_twt_target) { ?>target="_blank" <?php } ?>href="<?php echo esc_url($consultup_footer_twt_link);?>"><i class="fa fa-twitter"></i></a></span></li>
+			<li><span class="icon-soci"><a <?php if($consultup_footer_twt_target) { ?>target="_blank" <?php } ?>href="<?php echo esc_url($consultup_footer_twt_link);?>"><i class="fab fa-twitter"></i></a></span></li>
 			<?php } if($consultup_footer_lnkd_link !=''){ ?>
-			<li><span class="icon-soci"><a <?php if($consultup_footer_lnkd_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($consultup_footer_lnkd_link); ?>"><i class="fa fa-linkedin"></i></a></span></li>
+			<li><span class="icon-soci"><a <?php if($consultup_footer_lnkd_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($consultup_footer_lnkd_link); ?>"><i class="fab fa-linkedin"></i></a></span></li>
 			<?php } 
 			if($consultup_footer_insta_link !=''){ ?>
-			<li><span class="icon-soci"><a <?php if($consultup_footer_insta_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($consultup_footer_insta_link); ?>"><i class="fa fa-instagram"></i></a></span></li>
+			<li><span class="icon-soci"><a <?php if($consultup_footer_insta_target) { ?>target="_blank" <?php } ?> href="<?php echo esc_url($consultup_footer_insta_link); ?>"><i class="fab fa-instagram"></i></a></span></li>
 			<?php } ?>
 		  </ul>
 		  <?php } ?>
@@ -82,7 +82,7 @@
 </footer>
 </div>
 <!-- Scroll To Top -->
-<a href="#" class="page-scroll-up"><i class="fa fa-long-arrow-up"></i></a>
+<a href="#" class="page-scroll-up"><i class="fas fa-long-arrow-alt-up"></i></a>
 <!-- /Scroll To Top -->
 <?php wp_footer(); ?>
 </body>
