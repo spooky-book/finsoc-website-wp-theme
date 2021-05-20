@@ -71,7 +71,7 @@ get_template_part('index','banner'); ?>
                                 "site_url"  => "https://www.tmgm.com.au/en",
                                 "div_id"    => "TMGM",
                                 "name"      => "TMGM", 
-                                "image_file"=> "2021/05/tmgm.jpg", 
+                                "image_file"=> "2021/05/tmgm.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
