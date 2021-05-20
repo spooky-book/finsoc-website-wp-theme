@@ -21,7 +21,7 @@ get_template_part('index','banner'); ?>
             $post_args = array(
                 'post_type'     => 'post',
                 'post_status'   => 'publish', 
-                'posts_per_page'=> 25,
+                'posts_per_page'=> 16,
                 'category_name' => 'events'
             );
 
