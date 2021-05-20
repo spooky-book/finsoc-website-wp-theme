@@ -65,16 +65,7 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
-                        <?php
-                            $args = array(
-                                "site_url"  => "https://www.investec.com/en_au/welcome-to-investec.html",
-                                "div_id"    => "investec",
-                                "name"      => "Investec", 
-                                "image_file"=> "2021/01/investec.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
+
                         <?php
                             $args = array(
                                 "site_url"  => "https://www.challenger.com.au",
@@ -103,6 +94,16 @@ get_template_part('index','banner'); ?>
                                 "div_id"    => "Westpac",
                                 "name"      => "Westpac", 
                                 "image_file"=> "2021/01/westpac.png", 
+                                "detail"    => ""
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
+                        ?>
+                        <?php
+                            $args = array(
+                                "site_url"  => "https://www.neu.capital/",
+                                "div_id"    => "neucapital",
+                                "name"      => "Neucapital", 
+                                "image_file"=> "2021/05/neucapital.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
