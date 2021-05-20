@@ -122,10 +122,10 @@ get_template_part('index','banner'); ?>
                         <?php
                             // we need to get the images onto wordpress
                             $args = array(
-                                "site_url"  => "https://www.bain.com/",
-                                "div_id"    => "B&B",
-                                "name"      => "B&B", 
-                                "image_file"=> "2021/01/bain.png", 
+                                "site_url"  => "https://www.greenstonepartners.com.au/",
+                                "div_id"    => "Greenstone",
+                                "name"      => "Greenstone", 
+                                "image_file"=> "2021/05/greenstonepartners.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
