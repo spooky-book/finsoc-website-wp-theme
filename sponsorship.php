@@ -47,10 +47,10 @@ get_template_part('index','banner'); ?>
                     <div class="sponsorsOfficial">
                         <?php
                             $args = array(
-                                "site_url"  => "https://www.cfainstitute.org",
-                                "div_id"    => "cfa",
-                                "name"      => "CFA Institute", 
-                                "image_file"=> "2021/01/realcfa.png", 
+                                "site_url"  => "https://www.reckitt.com/",
+                                "div_id"    => "reckitt",
+                                "name"      => "reckitt", 
+                                "image_file"=> "2021/05/Reckitt_2021.svg_.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
