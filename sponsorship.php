@@ -68,10 +68,10 @@ get_template_part('index','banner'); ?>
 
                         <?php
                             $args = array(
-                                "site_url"  => "https://www.challenger.com.au",
-                                "div_id"    => "Challenger",
-                                "name"      => "Challenger", 
-                                "image_file"=> "2021/01/Chal.jpg", 
+                                "site_url"  => "https://www.tmgm.com.au/en",
+                                "div_id"    => "TMGM",
+                                "name"      => "TMGM", 
+                                "image_file"=> "2021/05/tmgm.jpg", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
