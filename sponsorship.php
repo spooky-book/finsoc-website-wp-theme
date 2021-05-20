@@ -103,7 +103,7 @@ get_template_part('index','banner'); ?>
                                 "site_url"  => "https://www.neu.capital/",
                                 "div_id"    => "neucapital",
                                 "name"      => "Neucapital", 
-                                "image_file"=> "2021/05/neucapital-logo.png", 
+                                "image_file"=> "2021/05/neucapital2-scaled.jpg", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
