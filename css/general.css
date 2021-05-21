@@ -364,17 +364,26 @@ img {
 }
 
 /* centres the navbar */
-.vertical-center {
+/* .vertical-center {
 	margin: 0;
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-}
+} */
 
 .navbar-show {
 	background-color:rgba(70, 86, 100, 1);
 	transition: background-color .3s ease;
 }
+
+/* mobile version */
+@media (max-width: 768px) {
+  #navbar-wp ul.dropdown-menu {
+    position: fixed;
+    margin-left: 20px !important;
+  }
+}
+
 
 /* 
  * * * * * * * * * * 
