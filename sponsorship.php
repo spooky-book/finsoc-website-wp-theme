@@ -27,7 +27,6 @@ get_template_part('index','banner'); ?>
                     </div>
                     <div class="sponsorsOfficial">
                         <?php
-                            // we need to get the images onto wordpress
                             $args = array(
                                 "site_url"  => "https://www.hsbc.com.au/",
                                 "div_id"    => "HSBC",
@@ -88,12 +87,11 @@ get_template_part('index','banner'); ?>
 
                     <div class="sponsorsOfficial">
                         <?php
-                            // we need to get the images onto wordpress
                             $args = array(
-                                "site_url"  => "https://www.westpac.com.au/",
-                                "div_id"    => "Westpac",
-                                "name"      => "Westpac", 
-                                "image_file"=> "2021/01/westpac.png", 
+                                "site_url"  => "https://www.bain.com/",
+                                "div_id"    => "bain",
+                                "name"      => "bain", 
+                                "image_file"=> "2021/01/bain.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
@@ -109,67 +107,11 @@ get_template_part('index','banner'); ?>
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
                         <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://www.ey.com/en_au",
-                                "div_id"    => "EY",
-                                "name"      => "EY", 
-                                "image_file"=> "2021/01/ey.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
                             $args = array(
                                 "site_url"  => "https://www.greenstonepartners.com.au/",
                                 "div_id"    => "Greenstone",
                                 "name"      => "Greenstone", 
                                 "image_file"=> "2021/05/greenstonepartners.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://fpa.com.au/",
-                                "div_id"    => "fpa",
-                                "name"      => "fpa", 
-                                "image_file"=> "2021/01/fpa.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://www.flowtraders.com/",
-                                "div_id"    => "flowtraders",
-                                "name"      => "flowtraders", 
-                                "image_file"=> "2021/01/ft.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://www.wibf.org.au/",
-                                "div_id"    => "wifb",
-                                "name"      => "wifb", 
-                                "image_file"=> "2021/01/wibf.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://cfmaltbeta.com.au",
-                                "div_id"    => "cfm",
-                                "name"      => "cfm", 
-                                "image_file"=> "2021/01/cfm.png", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
@@ -184,7 +126,6 @@ get_template_part('index','banner'); ?>
                     </div>
                     <div class="sponsorsOfficial">
                         <?php
-                            // we need to get the images onto wordpress
                             $args = array(
                                 "site_url"  => "https://www.ampcapital.com/au/en/home",
                                 "div_id"    => "AMP",
@@ -194,30 +135,26 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://palisadepartners.com.au/",
-                                "div_id"    => "palisade",
-                                "name"      => "palisade", 
-                                "image_file"=> "2021/01/palisade.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        <?php
-                            // we need to get the images onto wordpress
-                            $args = array(
-                                "site_url"  => "https://www.ubs.com/au/en.html",
-                                "div_id"    => "UBS",
-                                "name"      => "UBS", 
-                                "image_file"=> "2021/01/ubs.png", 
-                                "detail"    => ""
-                            );
-                            get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
                     </div>       
                     <br/>
+                    <div class="subheading">
+                        <br/>
+                        <h1 class="h2Custom">MARKETING SPONSORS</h1>
+                        
+                        <hr/>
+                    </div>
+                    <div class="sponsorsOfficial">
+                        <?php
+                            $args = array(
+                                "site_url"  => "https://www.flowtraders.com/",
+                                "div_id"    => "flowtraders",
+                                "name"      => "flowtraders", 
+                                "image_file"=> "2021/01/ft.png", 
+                                "detail"    => ""
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
+                        ?>
+                    </div>  
                 </div>
                 <div class="section2 applyContainer">
                     <a name="apply"></a>
