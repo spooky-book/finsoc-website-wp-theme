@@ -22,7 +22,7 @@ get_template_part('index','banner'); ?>
             <div class="section">
                 <div class="sponsors-container container">
                     <div class="subheading">
-                        <h1 class="h2Custom">PLATINUM SPONSORS</h1>
+                        <h1 class="h2Custom"><span style="color:#B43493">PLATINUM</span> SPONSORS</h1>
                         <hr/>
                     </div>
                     <div class="sponsorsOfficial">
@@ -40,7 +40,7 @@ get_template_part('index','banner'); ?>
                     </div>
                     <div class="subheading">
                         <br/>
-                        <h1 class="h2Custom">GOLD SPONSORS</h1>
+                        <h1 class="h2Custom"><span style="color:#BCAB35">GOLD</span> SPONSORS</h1>
                         
                         <hr/>
                     </div>
@@ -90,7 +90,7 @@ get_template_part('index','banner'); ?>
                     </div>
                     <div class="subheading">
                         <br/>
-                        <h1 class="h2Custom">SILVER SPONSORS</h1>
+                        <h1 class="h2Custom"><span style="color:#A0A0A0">SILVER</span> SPONSORS</h1>
                         
                         <hr/>
                     </div>
@@ -177,7 +177,7 @@ get_template_part('index','banner'); ?>
             
                     <div class="subheading">
                         <br/>
-                        <h1 class="h2Custom">BRONZE SPONSORS</h1>
+                        <h1 class="h2Custom"><span style="color:#9F6C3F">BRONZE</span> SPONSORS</h1>
                         
                         <hr/>
                     </div>
