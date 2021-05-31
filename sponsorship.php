@@ -121,7 +121,6 @@ get_template_part('index','banner'); ?>
                     <div class="subheading">
                         <br/>
                         <h1 class="h2Custom">BRONZE SPONSORS</h1>
-                        
                         <hr/>
                     </div>
                     <div class="sponsorsOfficial">
@@ -135,7 +134,6 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
-
                         <?php
                         // we need to get the images onto wordpress
                         $args = array(
@@ -156,8 +154,7 @@ get_template_part('index','banner'); ?>
                             "image_file"=> "2021/05/Bloomberg.jpg", 
                         );
                         get_template_part("templates/individual_sponsor", null, $args);
-                        ?>
-                        
+                        ?> 
                     </div>       
                     <br/>
                     <div class="subheading">
@@ -166,7 +163,6 @@ get_template_part('index','banner'); ?>
                         
                         <hr/>
                     </div>
-
                     <div class="sponsorsOfficial">
                         <?php
                             $args = array(
