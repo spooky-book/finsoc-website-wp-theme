@@ -159,7 +159,7 @@ get_template_part('index','banner'); ?>
                     <br/>
                     <div class="subheading">
                         <br/>
-                        <h1 class="h2Custom">MARKETING SPONSORS</h1>
+                        <h1 class="h2Custom"><span style="color:#553397">MARKETING</span> SPONSORS</h1>
                         
                         <hr/>
                     </div>
