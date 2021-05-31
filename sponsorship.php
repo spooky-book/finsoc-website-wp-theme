@@ -197,10 +197,10 @@ get_template_part('index','banner'); ?>
                         <?php
                             // we need to get the images onto wordpress
                             $args = array(
-                                "site_url"  => "https://palisadepartners.com.au/",
-                                "div_id"    => "palisade",
-                                "name"      => "palisade", 
-                                "image_file"=> "2021/01/palisade.png", 
+                                "site_url"  => "https://longreachalternatives.com/",
+                                "div_id"    => "longreach",
+                                "name"      => "longreach", 
+                                "image_file"=> "2021/05/longreach.jpg", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
@@ -208,10 +208,10 @@ get_template_part('index','banner'); ?>
                         <?php
                             // we need to get the images onto wordpress
                             $args = array(
-                                "site_url"  => "https://www.ubs.com/au/en.html",
-                                "div_id"    => "UBS",
-                                "name"      => "UBS", 
-                                "image_file"=> "2021/01/ubs.png", 
+                                "site_url"  => "https://www.bloomberg.com/asia",
+                                "div_id"    => "Bloomberg",
+                                "name"      => "Bloomberg", 
+                                "image_file"=> "2021/05/Bloomberg.jpg", 
                                 "detail"    => ""
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
