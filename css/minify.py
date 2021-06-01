@@ -1,3 +1,8 @@
+# minification right now is done by a plugin on wordpress 
+# if we need to manually do it and use it here is a tool to 
+# minify the css
+
+
 # -*- coding: utf-8 -*-
 import sys
 import requests
