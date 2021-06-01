@@ -19,7 +19,7 @@ for css_file in css_files:
 
     # Write out minified version
     minified = css_file.rstrip('css')+'min.css'
-    with open(minified, 'w') as m:
+    with open('./min/' + minified, 'w') as m:
         m.write(r.text)
 
     print("Minification complete. See {}\n".format(m.name))
