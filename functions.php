@@ -39,7 +39,7 @@ if (! function_exists('custom_css')) {
 	}
 }
 
-// add_action( 'wp_enqueue_scripts', 'custom_css', 99);
+add_action( 'wp_enqueue_scripts', 'custom_css', 99);
 
 // minified css inclusion below
 // if (! function_exists('custom_css_minified')) {
