@@ -74,7 +74,6 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
-                        <br/>
                     </div>
                     <div class="subheading">
                         <br/>
@@ -170,7 +169,6 @@ get_template_part('index','banner'); ?>
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
                     </div>
-                    <br/>
                     <div class="subheading">
                         <br/>
                         <h1 class="h2Custom"><span style="color:#553397">MARKETING</span> SPONSORS</h1>
