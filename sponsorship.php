@@ -163,6 +163,15 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?> 
+                        <?php
+                            $args = array(
+                                "site_url"  => "https://www.pottinger.com/",
+                                "div_id"    => "Pottinger",
+                                "name"      => "Pottinger", 
+                                "image_file"=> "2021/06/pottinger.jpg", 
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
+                        ?>
                     </div>       
                     <br/>
                     <div class="subheading">
@@ -182,6 +191,15 @@ get_template_part('index','banner'); ?>
                             );
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
+                        <?php
+                            $args = array(
+                                "site_url"  => "https://cfas.org.au/about/cfa-society-sydney/",
+                                "div_id"    => "CFA",
+                                "name"      => "CFA", 
+                                "image_file"=> "2021/06/CFA-e1622626128904.jpg", 
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
+                        ?> 
                     </div>  
                 </div>
                 <div class="section2 applyContainer">
