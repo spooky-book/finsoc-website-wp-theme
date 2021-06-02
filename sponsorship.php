@@ -135,25 +135,33 @@ get_template_part('index','banner'); ?>
                             get_template_part("templates/individual_sponsor", null, $args);
                         ?>
                         <?php
-                        // we need to get the images onto wordpress
-                        $args = array(
-                            "site_url"  => "https://longreachalternatives.com/",
-                            "div_id"    => "longreach",
-                            "name"      => "longreach", 
-                            "image_file"=> "2021/05/longreach.jpg", 
-                            "detail"    => ""
-                        );
-                        get_template_part("templates/individual_sponsor", null, $args);
+                            $args = array(
+                                "site_url"  => "https://www.db.com/index?language_id=1",
+                                "div_id"    => "db",
+                                "name"      => "db",
+                                "image_file"=> "2021/06/1593590065657.jpg",
+                                "detail"    => ""
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
                         ?>
                         <?php
-                        // we need to get the images onto wordpress
-                        $args = array(
-                            "site_url"  => "https://www.bloomberg.com/asia",
-                            "div_id"    => "Bloomberg",
-                            "name"      => "Bloomberg", 
-                            "image_file"=> "2021/05/Bloomberg.jpg", 
-                        );
-                        get_template_part("templates/individual_sponsor", null, $args);
+                            $args = array(
+                                "site_url"  => "https://longreachalternatives.com/",
+                                "div_id"    => "longreach",
+                                "name"      => "longreach", 
+                                "image_file"=> "2021/05/longreach.jpg", 
+                                "detail"    => ""
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
+                        ?>
+                        <?php
+                            $args = array(
+                                "site_url"  => "https://www.bloomberg.com/asia",
+                                "div_id"    => "Bloomberg",
+                                "name"      => "Bloomberg", 
+                                "image_file"=> "2021/05/Bloomberg.jpg", 
+                            );
+                            get_template_part("templates/individual_sponsor", null, $args);
                         ?> 
                     </div>       
                     <br/>
