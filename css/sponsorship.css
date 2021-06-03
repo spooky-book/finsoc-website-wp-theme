@@ -28,6 +28,10 @@
   float: right;
 }
 
+.sponsors-container hr {
+  background-color: #d4d4d4;
+}
+
 .applyContainer .apply {
   text-align: center;
   word-wrap: break-word;
