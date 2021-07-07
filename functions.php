@@ -72,3 +72,30 @@ function busiway_customizer_rid_values($wp_customize) {
 }
 
 add_action( 'customize_register', 'busiway_customizer_rid_values', 1000 );
+
+// if someone tries to find out the usernames of users through using ?author tag in URI they will be redirected back to the home page
+// this rule does not apply if you are a logged in admin
+function redirect_to_home_if_author_parameter() {
+	$is_author_set = get_query_var('author', '');
+	if ($is_author_set != '' && !is_admin()) {
+		wp_redirect(home_url(), 301);
+		exit;
+	}
+}
+
+add_action('template_redirect', 'redirect_to_home_if_author_parameter');
+
+// removes usernames from rest_endpoints for security purposes
+function disable_rest_endpoints ( $endpoints ) {
+	if ( isset( $endpoints['/wp/v2/users'] ) ) {
+		unset( $endpoints['/wp/v2/users'] );
+	}
+	
+	if ( isset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] ) ) {
+	        unset( $endpoints['/wp/v2/users/(?P<id>[\d]+)'] );
+	}
+
+	return $endpoints;
+}
+
+add_filter( 'rest_endpoints', 'disable_rest_endpoints');
