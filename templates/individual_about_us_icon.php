@@ -51,7 +51,7 @@
             <div class="modal-image-div">
                 <!-- <span class="modal-image-helper"></span> -->
                 <img class="modal-image" src="<?php echo esc_html($args['image_src'])?>" alt="<?php echo esc_html($args['person_name'])?>">
-            </div> 
+            </div>
             <div class="modal-text-div">
                 <b>Degree and Year of Study</b>
                 <p><?php echo esc_html($args['DegreeYear']) ?></p>
@@ -59,9 +59,8 @@
                 <p><?php echo esc_html($args['drives']) ?></p>
                 <b>Hobbies</b>
                 <p><?php echo esc_html($args['hobbies']) ?></p>
-                <b>Where do you see yourself in five years?</b>
                 <p><?php echo esc_html($args['future']) ?></p>
-            </div>   
+            </div>
         </div>
         <!-- <footer class="modal-container modal-bottom-bar">
             <p>Modal Footer</p>
