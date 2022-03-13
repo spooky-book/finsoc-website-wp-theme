@@ -30,7 +30,7 @@ get_template_part('index','banner'); ?>
                         "DegreeYear"        => "Bachelor of Commerce/Economics",
                         "drives"            => "Friends, family and the constant need to learn adapt and succeed in a fast paced environment",
                         "hobbies"           => "Gym, netflix, youtube, raving, going for therapeutic drives in the rain",
-                        "future"            => "Not 100% sure, but ideally in Canada with a german shepherd"
+    
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
