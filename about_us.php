@@ -23,7 +23,7 @@ get_template_part('index','banner'); ?>
                 <?php
                     $args = array(
                         "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
-                        "person_name"       => "Toad",
+                        "person_name"       => "Merrynal Anthony",
                         "person_position"   => "Co-President",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
