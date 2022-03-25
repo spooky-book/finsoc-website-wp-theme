@@ -77,7 +77,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-15-of-29-scaled-e1611455445813.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02068-scaled-e1648184949212.jpg",
                         "person_name"       => "Vedant Shah",
                         "person_position"   => "Vice President (Externals)",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
@@ -94,7 +94,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-22-of-29-scaled-e1611456724157.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02096-scaled-e1648186179169.jpg",
                         "person_name"       => "Katherine Mo",
                         "person_position"   => "Vice President (Operations)",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
@@ -158,7 +158,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-14-of-29-scaled-e1611455364654.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02102-scaled-e1648186727340.jpg",
                         "person_name"       => "William Jiang",
                         "person_position"   => "Social Director",
                         "mailto_address"    => "events@unswfinsoc.org.au",
@@ -218,7 +218,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/02/BG-1.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02190-1-scaled-e1648186826128.jpg",
                         "person_name"       => "James Layland",
                         "person_position"   => "Education Director",
                         "mailto_address"    => "academic@unswfinsoc.org.au",
@@ -230,7 +230,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/02/BG-1.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02077-scaled-e1648185487670.jpg",
                         "person_name"       => "Daniel Xu",
                         "person_position"   => "Education Director",
                         "mailto_address"    => "academic@unswfinsoc.org.au",
@@ -248,7 +248,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-9-of-29-scaled-e1611454908152.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02080-scaled-e1648185445321.jpg",
                         "person_name"       => "Salena Bhalerao",
                         "person_position"   => "Sponsorships Director",
                         "mailto_address"    => "sponsorships@unswfinsoc.org.au",
@@ -305,7 +305,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/02/BG-1.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02079-scaled-e1648185047363.jpg",
                         "person_name"       => "Matthew Sulistyo",
                         "person_position"   => "Research Director",
                         "mailto_address"    => "academic@unswfinsoc.org.au",
@@ -325,7 +325,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-29-of-29-scaled-e1611456514628.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02081-scaled-e1648185496885.jpg",
                         "person_name"       => "Chrystal Mao",
                         "person_position"   => "Marketing Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
@@ -337,7 +337,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-2-of-29-scaled-e1611454531236.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02084-scaled-e1648186030158.jpg",
                         "person_name"       => "Jeremy Wang",
                         "person_position"   => "Marketing Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
@@ -368,7 +368,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-8-of-29-scaled-e1611454493898.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02089-scaled-e1648186052294.jpg",
                         "person_name"       => "Oliver Ryan",
                         "person_position"   => "Publications Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
