@@ -186,7 +186,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-1-of-29-scaled-e1611454265685.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02176-1-scaled-e1648191911196.jpg",
                         "person_name"       => "Mimi Zhou",
                         "person_position"   => "Social Director",
                         "mailto_address"    => "events@unswfinsoc.org.au",
@@ -380,7 +380,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-12-of-29-scaled-e1611455278964.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/IMG_5560-Melody-Sze-e1648190480242.jpg",
                         "person_name"       => "Melody Sze",
                         "person_position"   => "Publications Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
@@ -410,7 +410,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-21-of-29-scaled-e1611456009821.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02092-1-1-scaled-e1648192566127.jpg",
                         "person_name"       => "Skyler Zou",
                         "person_position"   => "IT Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
