@@ -57,7 +57,6 @@
                 <p><?php echo esc_html($args['DegreeYear']) ?></p>
                 <b>What drives you?</b>
                 <p><?php echo esc_html($args['drives']) ?></p>
-                <b>Hobbies</b>
                 <p><?php echo esc_html($args['hobbies']) ?></p>
                 <p><?php echo esc_html($args['future']) ?></p>
             </div>
