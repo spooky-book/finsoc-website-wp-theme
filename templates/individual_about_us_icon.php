@@ -55,7 +55,7 @@
             <div class="modal-text-div">
                 <b>Degree and Year of Study</b>
                 <p><?php echo esc_html($args['DegreeYear']) ?></p>
-                <b>What drives you?</b>
+                <b>About you</b>
                 <p><?php echo esc_html($args['drives']) ?></p>
                 <p><?php echo esc_html($args['hobbies']) ?></p>
                 <p><?php echo esc_html($args['future']) ?></p>
