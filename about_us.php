@@ -276,7 +276,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-26-of-29-scaled-e1611456215574.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02168-scaled-e1648186734127.jpg",
                         "person_name"       => "Mandy Zhou",
                         "person_position"   => "Sponsorships Director",
                         "mailto_address"    => "sponsorships@unswfinsoc.org.au",
