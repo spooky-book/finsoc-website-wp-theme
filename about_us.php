@@ -23,14 +23,14 @@ get_template_part('index','banner'); ?>
                 <?php
                     $args = array(
                         "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-3-of-29-scaled-e1611453797627.jpg",
-                        "person_name"       => "Toad",
+                        "person_name"       => "Merrynal",
                         "person_position"   => "Co-President",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/anthony-merrynal-39324316b/",
                         "DegreeYear"        => "Bachelor of Commerce/Economics",
                         "drives"            => "Friends, family and the constant need to learn adapt and succeed in a fast paced environment",
                         "hobbies"           => "Gym, netflix, youtube, raving, going for therapeutic drives in the rain",
-    
+
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
