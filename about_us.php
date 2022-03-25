@@ -154,7 +154,7 @@ get_template_part('index','banner'); ?>
             </div>
         </div>
         <br>
-        <div class="two-wide-row-container">
+        <div class="three-wide-row-container">
             <div class="about-us-row">
                 <?php
                     $args = array(
@@ -202,7 +202,7 @@ get_template_part('index','banner'); ?>
         <br>
         <br>
         <h1>Externals</h1>
-        <div class="two-wide-row-container">
+        <div class="three-wide-row-container">
             <div class="about-us-row">
                 <?php
                     $args = array(
@@ -244,7 +244,7 @@ get_template_part('index','banner'); ?>
             </div>
         </div>
         <br>
-        <div class="two-wide-row-container">
+        <div class="three-wide-row-container">
             <div class="about-us-row">
                 <?php
                     $args = array(
