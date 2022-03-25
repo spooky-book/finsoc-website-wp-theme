@@ -34,7 +34,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-4-of-29-scaled-e1611454331311.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02122-scaled.jpg",
                         "person_name"       => "Siqi Yang",
                         "person_position"   => "Co-President",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
@@ -53,19 +53,19 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-20-of-29-scaled-e1611456453833.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02141-scaled.jpg",
                         "person_name"       => "Queenie Li",
                         "person_position"   => "Vice President (Activities)",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/queeniecyli",
                         "DegreeYear"        => "Bachelor of Commerce/Information Systems - 3rd year",
-                        "drives"            => "Hi, I’m Queenie! In my spare time I enjoy reading & watching conspiracy theories, going out for brunch and driving to nice lookouts."
+                        "drives"            => "Hi, I'm Queenie! In my spare time I enjoy reading & watching conspiracy theories, going out for brunch and driving to nice lookouts."
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-19-of-29-scaled-e1611455637963.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02134-scaled.jpg",
                         "person_name"       => "Alex Cai",
                         "person_position"   => "Vice President (Externals)",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
@@ -106,7 +106,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-17-of-29-scaled-e1611455529165.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02108-scaled.jpg",
                         "person_name"       => "Nick Joeng",
                         "person_position"   => "General Secretary",
                         "mailto_address"    => "enquiries@unswfinsoc.org.au",
@@ -126,7 +126,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/02/QL.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02112-scaled.jpg",
                         "person_name"       => "Amy Toms",
                         "person_position"   => "HR Director",
                         "mailto_address"    => "hr@unswfinsoc.org.au",
@@ -141,7 +141,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/NJ-1-scaled-e1612089853514.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02118-scaled.jpg",
                         "person_name"       => "Galen Yuan",
                         "person_position"   => "HR Director",
                         "mailto_address"    => "hr@unswfinsoc.org.au",
@@ -158,7 +158,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-14-of-29-scaled-e1611455364654.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02102-scaled.jpg",
                         "person_name"       => "William Jiang",
                         "person_position"   => "Social Director",
                         "mailto_address"    => "events@unswfinsoc.org.au",
@@ -170,7 +170,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-1-of-29-scaled-e1611454265685.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02105-scaled.jpg",
                         "person_name"       => "Warren O",
                         "person_position"   => "Social Director",
                         "mailto_address"    => "events@unswfinsoc.org.au",
@@ -186,7 +186,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-1-of-29-scaled-e1611454265685.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02175-scaled.jpg",
                         "person_name"       => "Mimi Zhou",
                         "person_position"   => "Social Director",
                         "mailto_address"    => "events@unswfinsoc.org.au",
@@ -210,7 +210,7 @@ get_template_part('index','banner'); ?>
                         "person_name"       => "Nahum Adeel",
                         "person_position"   => "Education Director",
                         "mailto_address"    => "academic@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/vedant-shah1/",
+                        "linkedin_url"      => "https://www.linkedin.com/in/nahum-adeel/",
                         "DegreeYear"        => "3rd Year Actl/Comm",
                         "drives"            => "The ability to leave an impact in the student community"
                     );
@@ -218,7 +218,7 @@ get_template_part('index','banner'); ?>
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/02/BG-1.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02190-1-scaled.jpg",
                         "person_name"       => "James Layland",
                         "person_position"   => "Education Director",
                         "mailto_address"    => "academic@unswfinsoc.org.au",
@@ -268,15 +268,15 @@ get_template_part('index','banner'); ?>
                         "mailto_address"    => "sponsorships@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/avaneesh-shrestha-25331019b/",
                         "DegreeYear"        => "Bachelor of Commerce/Information Systems - 3rd year",
-                        "drives"            => "My goal in life is to perpetually hit a level in which what I consider impossible today will be my future self’s warmup.
+                        "drives"            => "My goal in life is to perpetually hit a level in which what I consider impossible today will be my future self's warmup.
                                                 Fun facts: I eat raw ramen flavouring. I was mugged by a guy with a tree branch
-                                                Hobbies: gym, anime, cooking, listening to Nick Joeng’s laugh, throwing hands with my dog"
+                                                Hobbies: gym, anime, cooking, listening to Nick Joeng's laugh, throwing hands with my dog"
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-26-of-29-scaled-e1611456215574.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02168-scaled.jpg",
                         "person_name"       => "Mandy Zhou",
                         "person_position"   => "Sponsorships Director",
                         "mailto_address"    => "sponsorships@unswfinsoc.org.au",
@@ -329,9 +329,10 @@ get_template_part('index','banner'); ?>
                         "person_name"       => "Chrystal Mao",
                         "person_position"   => "Marketing Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
-                        "linkedin_url"      => "https://www.linkedin.com/in/jessqiao/",
-                        "DegreeYear"        => "3rd Year Commerce (Finance)/ Computer Science ",
-                        "drives"            => "Sagittarius, short and loud"
+                        "linkedin_url"      => "https://www.linkedin.com/in/chrystal-mao-8326891b6/",
+                        "DegreeYear"        => "Bachelor of Commerce/Information Systems - 4th year",
+                        "drives"            => "I am someone who always prioritises balance in my own life, whether that be balancing workload, hobbies and goals (both career and personal). 
+                                                I believe having a good circle of people around you can inspire personal growth and help you spread that energy around as well."
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
@@ -398,7 +399,7 @@ get_template_part('index','banner'); ?>
             <div class="about-us-row">
                 <?php
                     $args = array(
-                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2021/01/Professional-Photos-5-of-29-scaled-e1611454415299.jpg",
+                        "image_src"         => "https://unswfinsoc.org.au/wp-content/uploads/2022/03/DSC02162-scaled.jpg",
                         "person_name"       => "Jeffrey Ge",
                         "person_position"   => "IT Director",
                         "mailto_address"    => "operations@unswfinsoc.org.au",
@@ -416,7 +417,7 @@ get_template_part('index','banner'); ?>
                         "mailto_address"    => "operations@unswfinsoc.org.au",
                         "linkedin_url"      => "https://www.linkedin.com/in/skyler-zou-2729ab213/",
                         "DegreeYear"        => "Bachelor of Actuarial Studies/Commerce - 4th year",
-                        "drives"            => "I am motivated to bring positive change/value to the people and community around me and to be the best version of myself."
+                        "drives"            => "In my spare time I like playing games, watching tv shows, anime and youtube, drawing and running."
                     );
                     get_template_part("templates/individual_about_us_icon", null, $args);
                 ?>
